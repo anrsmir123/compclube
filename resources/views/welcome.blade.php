@@ -15,14 +15,42 @@
         </style>
 
         <style>
+			.gradient {
+			background: #fefcea; 
+		   }
             body {
                 font-family: 'Nunito', sans-serif;
             }
+			.DivvCl{
+				margin-left: 50px;
+			}
+			.Head{
+				margin-top: 20px;
+				border: 1px double black;
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+			.Main{
+				border: 1px black;
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
         </style>
     </head>
-    <body class="antialiased">
-        <header>
-			
+    <body class="antialiased gradient">
+        <header class="Head">
+			<center>
+			<a href="#main"><label>1й блок</label></a>
+			<a class="DivvCl" href="#two"><label>2й блок</label></a>
+			<a class="DivvCl" href="#tree"><label>3й блок</label></a></div>
+			</center>
         </header>
+		<main class="Main">
+		test
+		</main>
     </body>
 </html>
